@@ -87,16 +87,21 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-osrs.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
+  color: white;
   font-size: 4rem;
   margin: 0;
   padding: 0;
+}
+
+.masthead h3 {
+    color: white;
 }
 
 @media (min-width: 992px) {
@@ -214,9 +219,8 @@ h6 {
 }
 
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
+  padding: 5rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -226,6 +230,25 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+.callout p {
+    font-size: 18px;
+}
+
+.callout li {
+    font-size: 18px;
+}
+
+.powerbot {
+    padding: 6rem 0;
+    background-image: url("../img/bg-robot.jpg");
+    background-position: center top;
+}
+
+.modular {
+    background-image: url("../img/bg-callout.jpg");
+    background-position: center center;
 }
 
 .portfolio-item {
