@@ -39,21 +39,6 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
-}
-
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -259,6 +244,13 @@ h6 {
   margin: auto auto 1rem;
 }
 
+.portfolio-item img {
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
 .portfolio-item .caption {
   display: flex;
   height: 100%;
@@ -305,7 +297,7 @@ h6 {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
-  }
+  }'''
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
@@ -314,7 +306,7 @@ h6 {
     background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
-  }
+  }'''
 }
 
 footer.footer {
