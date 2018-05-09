@@ -236,6 +236,15 @@ h6 {
     background-position: center center;
 }
 
+.contributions {
+    background-image: url("../img/contributions.png");
+    background-position: center top;
+}
+
+.contributions p {
+    color:black;
+}
+
 .portfolio-item {
   display: block;
   position: relative;
